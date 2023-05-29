@@ -3,6 +3,6 @@
 개발 기술을 차곡차곡 쌓아보겠습니다.
 
 주요 기술 : 
-<img src="https://img.shields.io/badge/리액트-61DAFB?style=flat&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/리액트-61DAFB?style=social&logo=React&logoColor=white"/>
 JavaScript, TypeScript, Recoil, HTML, CSS<br>
 환경 : Github, PostMan, Swagger, Figma
