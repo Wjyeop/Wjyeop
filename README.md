@@ -4,5 +4,6 @@
 
 주요 기술 : 
 <img src="https://img.shields.io/badge/리액트-61DAFB?style=plastic&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/자바스크립트-F7DF1E?style=plastic&logo=React&logoColor=white"/>
 JavaScript, TypeScript, Recoil, HTML, CSS<br>
 환경 : Github, PostMan, Swagger, Figma
