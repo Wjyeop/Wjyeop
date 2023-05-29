@@ -13,3 +13,9 @@
 
 JavaScript, TypeScript, Recoil, HTML, CSS<br>
 환경 : Github, PostMan, Swagger, Figma
+#181717
+
+<img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=Postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white"/>
