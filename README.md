@@ -10,11 +10,7 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white"/>
 <img src="https://img.shields.io/badge/Recoil-61DAFB?style=plastic&logo=Recoil&logoColor=white"/>
 
-
-JavaScript, TypeScript, Recoil, HTML, CSS<br>
-환경 : Github, PostMan, Swagger, Figma
-#181717
-
+환경 :
 <img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=Postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=plastic&logo=Swagger&logoColor=white"/>
