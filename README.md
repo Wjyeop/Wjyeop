@@ -5,5 +5,5 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wjyeop&layout=compact"><br><br>
 <img src="https://github-readme-stats.vercel.app/api?username=wjyeop&show_icons=true">
 
-주요 기술 : JavaScript, TypeScript, Recoil, HTML, CSS
+주요 기술 : JavaScript, TypeScript, Recoil, HTML, CSS<br>
 환경 : Github, PostMan, Swagger, Figma
