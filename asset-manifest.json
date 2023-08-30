@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wjyeop/static/css/main.22535fe5.css",
+    "main.js": "/Wjyeop/static/js/main.dfd43c84.js",
+    "index.html": "/Wjyeop/index.html",
+    "main.22535fe5.css.map": "/Wjyeop/static/css/main.22535fe5.css.map",
+    "main.dfd43c84.js.map": "/Wjyeop/static/js/main.dfd43c84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22535fe5.css",
+    "static/js/main.dfd43c84.js"
+  ]
+}
