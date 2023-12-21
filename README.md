@@ -19,4 +19,3 @@ https://portfolio-wjyeop.web.app/
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=plastic&logo=Figma&logoColor=white"/>
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Wjyeop&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
