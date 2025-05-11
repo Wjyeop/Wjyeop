@@ -1,20 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Menu from "./pages/Menu";
 import Dashboard from "./pages/Dashboard";
-import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
-import './App.scss';
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Menu/>
         <Routes>
-          <Route path='/' element ={<Dashboard/>}/>                
-          <Route path='/skills' element ={<Skills/>}/>      
-          <Route path='/projects' element ={<Projects/>}/>                          
+          <Route path='/' element ={<Dashboard/>}/>                        
         </Routes>
       </BrowserRouter>
     </div>
