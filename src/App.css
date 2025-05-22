@@ -1,40 +1,118 @@
-body {
-    width: 1920px;
-    height: 1080px;
-    text-align: center;
-    padding: 100px;
-  background-color: #f9f9f9;
-
-}
 
 .dashboard {
-    width: 100%;
-    height: 100%;
-    padding: 2rem;
-  min-height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
-.dashboard .card-wrap {
-    display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+.first-cover,
+.second-cover {
+  scroll-snap-align: start;
 }
 
-.dashboard .card-wrap .card {
-    background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  overflow: hidden;
-  transition: transform 0.2s ease;
+.first-cover {
+  background-image: url('../public/img/background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-cover .text {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.dashboard .card-wrap .card:hover {
-    transform: translateY(-5px);}
+.second-cover {
+  background-image: url('../public/img/background2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.dashboard .card-wrap .card img {
+.second-cover .content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20vh;
+  
+}
+
+.card-wrap {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  
+}
+
+.card-wrap .card {
+  background: linear-gradient(135deg, #111, #1a1a1a);
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+  border: 3px solid #ffd700;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 300px;
+  color: #fff;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  background: linear-gradient(270deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: rotate(90deg);
+  pointer-events: none;
+  opacity: 0; /* 초기엔 숨김 */
+  transition: opacity 0.5s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+  animation: shimmer 2s infinite linear;
+}
+
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+
+
+.card-wrap .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.card-wrap .card:hover {
+    transform: translateY(-5px);
+  }
+
+.card-wrap .card img {
     width: 100%;
     object-fit: cover;
     border-bottom: 1px solid #eee;
@@ -46,17 +124,19 @@ body {
     color: #333;
   }
   
-  .card .link {
-    display: inline-block;
-    margin-top: 0.5rem;
-    text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .card .link:hover {
-    background-color: #0056b3;
-  }
+.card .link {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 3px 0 #aa8800;
+  transition: all 0.2s ease;
+
+}
+
+.card .link:hover {
+  background-color: #ffe066;
+  box-shadow: 0 1px 0 #aa8800;
+  transform: translateY(-2px);
+}
