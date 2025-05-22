@@ -6,7 +6,7 @@ function Cards() {
       id: 1,
       title: "포트폴리오",
       image: "/img/card1.png",
-      link: "https://www.yigongcoffee.com/"
+      link: "https://portfolio-wjyeop.web.app/"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function Cards() {
       id: 3,
       title: "메모장",
       image: "/img/card3.png",
-      link: "https://www.yigongcoffee.com/"
+      link: "https://react-with-firebase-39fa2.web.app/"
     }
   ];
 
