@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Cards() {
   const cards = [
     {
@@ -23,23 +25,19 @@ function Cards() {
   return (
     <div className="card-wrap">
       {cards.map((card) => (
-        <a 
-            className="card" 
-            key={card.id}
-            href={card.link}
-            target="_blank"
-            rel="noreferrer"
-            >
+        <a
+          className="card"
+          key={card.id}
+          href={card.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card-image-container">
             <img src={card.image} alt={card.title} />
-            <h1 className="card-title">{card.title}</h1>
-            {/* <a
-                className="link"
-                href={card.link}
-                target="_blank"
-                rel="noreferrer"
-            >
-                링크이동
-            </a> */}
+          </div>
+          <div className="card-title-container">
+             <h2 className="card-title">{card.title}</h2>
+          </div>
         </a>
       ))}
     </div>
