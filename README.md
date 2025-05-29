@@ -2,7 +2,7 @@
 저는 프론트엔드 웹 개발자입니다.<br>
 리액트를 주력으로 하며 타입스크립트, 뷰, 넥스트 등 여러 프론트엔드 기술을 공부하고 있습니다.
 
-[https://portfolio-wjyeop.web.app/](https://wjyeop.site/)
+https://wjyeop.site
 
 주요 기술 : 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=JavaScript&logoColor=white"/>
